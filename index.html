@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lydia</title>
+  <!-- StyleSheet's -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <!-- BootStrap 4.0 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- BootStrap JS Script's -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+  <!-- Font's -->
+  <link href="https://fonts.googleapis.com/css?family=Barriecito|Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nova+Square&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- FontAweome -->
+  <script src="https://kit.fontawesome.com/9d41485772.js"></script>
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
+<body class="body">
+
+  <section id="navagation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Lydia</a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bio</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </section>
+
+  <section id="title-section">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="title-container">
+          <h1 class="title">Hello</h1>
+          <p>rgefb regfsfdvs regfthrth htrgbsrgt trtghtrert</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="card profile-card">
+          <div class="card-body my-card-body">
+            <h5 class="card-title">Lydia Kime</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">BandCamp link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </sectioaudion>
+
+    <section id="music-section">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="audio-div">
+            <div class="audio-head">
+              <h5 class="audio-title">Lydia's Radio</h5>
+              <p id="track-name" class="audio-track"></p>
+              <audio id="my-Audio"></audio>
+              <div class="row">
+                <div class="col">
+                  <button id="FF-Btn" class="ff-btn btn btn-light" type="button" name="button"><i class="fas fa-angle-double-right"></i></button>
+                </div>
+                <div class="col">
+                  <img id="P-Btn" class="play-btn" src="Images/play.png" alt="">
+                </div>
+                <div class="col">
+                  <button id="RS-Btn" class="restart-btn btn btn-light" type="button" name="button"><i class="fas fa-history"></i></button>
+                </div>
+                <div class="col">
+                  <button id="RW-Btn" class="ff-btn btn btn-light" type="button" name="button"><i class="fas fa-angle-double-left"></i></button>
+                </div>
+              </div>
+              <div class="progress">
+                <div id="seek-bar" class="progress-bar bg-dark" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <p class="audio-timers" id="audio-time">0:00</p>
+                </div>
+                <div class="col">
+                  <p class="audio-timers" id="audio-duration">0:00</p>
+                </div>
+              </div>
+              <p>
+                <button class="btn bg-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  <i class="fas fa-music"></i>
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body ">
+                  <p id="FW-Btn" class="dropdown-item song-btn" href="#">Fresh World 8:47</p>
+                  <p id="C-Btn" class="dropdown-item song-btn" href="#">Catastrophics 3:44</p>
+                  <p id="NA-Btn" class="dropdown-item song-btn" href="#">Natrual Addict 5:21</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="JavaScript/AudioPlayer.js" type="text/javascript"></script>
+
+    </section>
+
+    <section id="video-section">
+
+      <div class="video-div">
+        <video src="VideoFiles\Natural Addict.MP4" controls autoplay width="450" height="300" poster=""></video>
+      </div>
+
+    </section>
+
+    <!-- JavaScript -->
+
+</body>
+
+</html>
