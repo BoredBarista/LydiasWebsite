@@ -1,0 +1,108 @@
+.body {
+  background-color: #d7d1c9;
+  font-family: 'Courgette', cursive;
+  /* background-image: url("file:///C:/Users/Natha/OneDrive/Documents/Lydia's%20Website/Images/GreenPathCropped.JPG"); */
+}
+
+/* TITLE SECTION */
+
+#title-section {
+  background-color: #8bbabb;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.title-container {
+  text-align: left;
+  width: 100%;
+  color: #c7f0db;
+  padding: 7% 12%;
+  margin-bottom: 10%;
+}
+
+.profile-card {
+  width: 18rem;
+  margin: 7% 12%;
+}
+
+.my-card-body {
+  background-color: #c7f0db;
+}
+
+/* MUSIC SECTION */
+
+#music-section {
+  background-color: #382039;
+}
+
+.audio-div {
+  font-family: 'Nova Square', cursive;
+  text-align: center;
+  background-color: #fff;
+  margin: 4% 9%;
+  width: 25rem;
+  height: 15rem;
+  border-radius: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.audio-title {
+  margin-bottom: 3%;
+}
+
+.audio-track {
+  position: absolute;
+  font-size: 0.7rem;
+  margin: -4% 3% 2%;
+}
+
+.audio-head {
+  background-color: #200f21;
+  padding: 5% 0;
+  color: #fff;
+  border-radius: 5%;
+  width: 97%;
+  height: 95%;
+}
+
+.play-btn {
+  color: #fff;
+  background-color: #fff;
+  border-radius: 10%;
+  border-color: #200f21;
+  width:  42px;
+  height: 32;
+}
+
+.progress {
+  width: 70%;
+  margin: 3% 15%;
+}
+
+.progress-bar {
+  background-color: #fff;
+  color: #6c7b95;
+}
+
+/* VIDEO SECTION */
+
+#video-section {
+  background-color: #672f2f;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.video-div {
+  position: relative;
+  border-radius: 3%;
+  margin: 0 7%;
+  width: 30rem;
+  height: 20rem;
+  background-color: #200f21;
+}
